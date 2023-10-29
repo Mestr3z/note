@@ -1,0 +1,27 @@
+.notes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.note-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+  max-width: 300px;
+}
+
+.note-item button {
+  padding: 5px 10px;
+  font-size: 0.8em;
+}
+
+.buttons{
+  display: flex;
+}
